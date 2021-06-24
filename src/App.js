@@ -18,7 +18,6 @@ function App() {
         <CartContextProvider>
         <Router>
         <Navbar />
-      
           <Switch>
             <Route path="/" exact component={Products} />
             <Route path = "/cart" exact component={Cart}/>
